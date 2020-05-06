@@ -12,7 +12,8 @@ git clone https://www.github.com/{your account name}/devops-jenkins-docker-git
 
 * cd devops-jenkins-docker-git
 * cd .git/hooks
-* Edit the post-commit.sample file using mv post-commit.sample && vim post-commit 
+* Edit the post-commit.sample file using mv post-commit.sample && vim post-commit
+* if you don't have that file already use touch post-commit and then vim post-commit 
 * Then add this line inside that file
 
 #!/bin/bash

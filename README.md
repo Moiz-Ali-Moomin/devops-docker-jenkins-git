@@ -50,3 +50,6 @@ sudo docker run -d -t -i -p 8081:80 -v /development_code:/usr/local/apache2/htdo
 fi
 sudo cp -r -v -f * /development_code/
 
+
+# Step by Step Documentation
+https://devops-project-iiec.blogspot.com/2020/05/devops-continous-integration-with-git.html
